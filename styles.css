@@ -1,3 +1,5 @@
-font {
-  
+html {
+  hyphens: auto;
+  font-family: 'Montserrat', sans-serif;
+
 }
