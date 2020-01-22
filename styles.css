@@ -1,6 +1,38 @@
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('assets/fonts/AvenirNextCyr-Regular.woff2') format('woff2'),
+        url('assets/fonts/AvenirNextCyr-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('assets/fonts/AvenirNextCyr-Medium.woff2') format('woff2'),
+        url('assets/fonts/AvenirNextCyr-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('assets/fonts/AvenirNextCyr-Bold.woff2') format('woff2'),
+        url('assets/fonts/AvenirNextCyr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('assets/fonts/AvenirNextCyr-Light.woff2') format('woff2'),
+        url('assets/fonts/AvenirNextCyr-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
 html {
   hyphens: auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Avenir Next Cyr', sans-serif;
 
 }
 header {
@@ -9,40 +41,60 @@ header {
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Avenir Next Cyr', sans-serif;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Avenir Next Cyr', sans-serif;
   font-size: 48px;
   line-height: 58px;
-  font-weight: 800;
+  font-weight: bold;
   color: #F0F0F0;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 36px;
+  font-family: 'Avenir Next Cyr', sans-serif;
+  font-size: 38px;
   line-height: 40px;
-  font-weight: 600;
+  font-weight: bold;
   color: #E0E0E0;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Avenir Next Cyr', sans-serif;
   font-size: 24px;
   line-height: 36px;
-  font-weight: normal;
+  font-weight: 300;
+  color: #C0CBD9;
+}
+
+h4 {
+  font-family: 'Avenir Next Cyr', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
   color: #C0CBD9;
 }
 
 button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Avenir Next Cyr', sans-serif;
   font-size: 48px;
   width: 186px;
   height: 50px;
   background-color: #F9C66F;
   border-radius: 8px;
+}
+
+.header-menu {
+  font-family: 'Avenir Next Cyr', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #ECECEC;
+  margin-top: 55px;
+  margin-left: 325px;
+  display: flex;
+  flex-direction: row;
 }
 
 .intro {
@@ -51,4 +103,19 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.second-part {
+  height: 100vh;
+  background-color: #090C12;
+}
+
+.third-part {
+  height: 100vh;
+  background-color: #090C12;
+}
+
+.fourth-part {
+  height: 100vh;
+  background-color: #090C12;
 }
