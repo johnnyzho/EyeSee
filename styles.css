@@ -81,16 +81,19 @@ nav {
   width: 675px;
 }
 
-.menu {
+.menu a {
   font-family: 'Avenir Next Cyr', sans-serif;
   font-size: 18px;
   font-weight: normal;
   color: #C0CBD9;
   height: 26px;
   width: 675px;
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
   margin-top: 26px;
+}
+
+.menu a:hover {
+  text-shadow:
 }
 
 .buttons {
@@ -101,8 +104,9 @@ nav {
   margin-right: 100px;
 }
 
-.button-text {
+.button-text a {
  margin-top: 26px;
+ text-align: center;
 }
 
 .button-secondary a {
@@ -111,7 +115,7 @@ nav {
   font-weight: normal;
   line-height: 18px;
   color: #F9C66F;
-  padding: 16px 20px;
+  padding: 8px 16px;
   border-radius: 4px;
   background-color: none;
   border: solid 1px #F9C66F;
@@ -156,17 +160,13 @@ nav {
 .button-main a {
   font-family: 'Avenir Next Cyr', sans-serif;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 20px;
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 8px 16px;
   color: #090C12;
   border-radius: 4px;
   background-color: #F9C66F;
-}
-
-.button-main a:hover {
-  background-color: darken (1.5%)
 }
 
 .second-part {
