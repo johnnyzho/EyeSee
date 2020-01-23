@@ -76,13 +76,19 @@ h4 {
   color: #C0CBD9;
 }
 
-button {
+.button {
   font-family: 'Avenir Next Cyr', sans-serif;
-  font-size: 48px;
-  width: 186px;
-  height: 50px;
-  background-color: #F9C66F;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  width: 140px;
+  height: 44px;
   border-radius: 8px;
+  background-color: none;
+  border: solid 1px #F9C66F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-menu {
@@ -91,10 +97,18 @@ button {
   line-height: 24px;
   font-weight: 300;
   color: #ECECEC;
-  margin-top: 55px;
+  margin-top: 16px;
   margin-left: 325px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.header {
+  width: 1440px;
+  height: 68px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .intro {
@@ -116,6 +130,24 @@ button {
 }
 
 .fourth-part {
-  height: 100vh;
-  background-color: #090C12;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 120px;
+  width: 1440px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  background-color: #071122;
+}
+
+.menu {
+  height: 36px;
+  width: 725px;
+  display: flex;
+  justify-content: center;
+  padding-left: 358px;
+  padding-right: 358px;
 }
