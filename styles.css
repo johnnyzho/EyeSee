@@ -5,6 +5,7 @@ html {
 }
 header {
   background-color: inherit;
+  position: fixed;
   width: 100%;
 }
 
@@ -177,14 +178,14 @@ p {
 .film-1 {
   width: 520px;
   height: 310px;
-  background-color: #1157B6;
+  background-image: url(assets/images/slider-1.jpg);
   margin-right: 16px;
 }
 
 .film-2 {
   width: 148px;
   height: 310px;
-  background-color: #1157B6;
+  background-image: url(assets/images/slider-2.jpg);
 }
 
 .second-part {
@@ -328,6 +329,10 @@ p {
   height: 192px;
   background-color: #1157B6;
   margin-left: 8px;
+}
+
+.poster-1 {
+  background-image: url(assets/images/poster-1.jpeg);
 }
 
 .poster-5-1, .poster-10-1, .poster-15-1, .poster-20-1, .poster-25-1 {
