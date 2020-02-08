@@ -329,10 +329,94 @@ p {
   height: 192px;
   background-color: #1157B6;
   margin-left: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .poster-1 {
   background-image: url(assets/images/poster-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.poster-2 {
+  background-image: url(assets/images/poster-2.jpeg);
+}
+
+.poster-3 {
+  background-image: url(assets/images/poster-3.jpeg);
+}
+
+.poster-4 {
+  background-image: url(assets/images/poster-4.jpeg);
+}
+
+.poster-5 {
+  background-image: url(assets/images/poster-5.jpg);
+}
+
+.poster-6 {
+  background-image: url(assets/images/poster-6.jpg);
+}
+.poster-7 {
+  background-image: url(assets/images/poster-7.jpeg);
+}
+.poster-8 {
+  background-image: url(assets/images/poster-8.jpeg);
+}
+.poster-9 {
+  background-image: url(assets/images/poster-9.jpg);
+}
+.poster-10 {
+  background-image: url(assets/images/poster-10.jpg);
+}
+.poster-11 {
+  background-image: url(assets/images/poster-11.jpg);
+}
+.poster-12 {
+  background-image: url(assets/images/poster-12.jpeg);
+}
+.poster-13 {
+  background-image: url(assets/images/poster-13.jpg);
+}
+.poster-14 {
+  background-image: url(assets/images/poster-14.jpg);
+}
+
+.poster-15 {
+  background-image: url(assets/images/poster-15.jpeg);
+}
+.poster-16 {
+  background-image: url(assets/images/poster-16.jpeg);
+}
+.poster-17 {
+  background-image: url(assets/images/poster-17.jpeg);
+}
+.poster-18 {
+  background-image: url(assets/images/poster-18.jpeg);
+}
+.poster-19 {
+  background-image: url(assets/images/poster-19.jpeg);
+}
+.poster-20 {
+  background-image: url(assets/images/poster-20.jpg);
+}
+.poster-21 {
+  background-image: url(assets/images/poster-21.jpg);
+}
+.poster-22 {
+  background-image: url(assets/images/poster-22.jpg);
+}
+.poster-23 {
+  background-image: url(assets/images/poster-23.jpg);
+}
+.poster-24 {
+  background-image: url(assets/images/poster-24.jpg);
+}
+.poster-25 {
+  background-image: url(assets/images/poster-25.jpg);
 }
 
 .poster-5-1, .poster-10-1, .poster-15-1, .poster-20-1, .poster-25-1 {
@@ -344,7 +428,10 @@ p {
 
 .third-part {
   background-color: #090C12;
-  padding-top: 200px;
+  padding-top: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title-3 {
@@ -369,6 +456,7 @@ p {
   margin-top: 24px;
   margin-left: 74px;
   margin-right: 74px;
+  margin-bottom: 64px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -425,6 +513,7 @@ p {
   flex-direction: column;
   align-items: center;
   background-color: #090C12;
+  margin-bottom: 32px;
 }
 
 .questions {
@@ -468,6 +557,7 @@ p {
   border-radius: 10px;
   margin: 32px auto;
   padding: 32px;
+  margin-bottom: 16px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -485,10 +575,37 @@ p {
   color: #E0E0E0;
 }
 
+.p-bold-2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #E0E0E0;
+  margin-right: 300px;
+}
+
+.p-bold-3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #E0E0E0;
+  margin-right: 430px;
+}
+
+.p-bold-4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #E0E0E0;
+  margin-right: 360px;
+}
+
 .icon-2 {
   width: 24px;
   height: 24px;
   background-image: url(assets/images/icon-2.svg);
+}
+
+.block-4 {
+  background-image: url(assets/images/block-4.svg);
+  width: 1293px;
+  height: 472px;
 }
 
 .fifth-part {
