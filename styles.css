@@ -661,7 +661,11 @@ p {
   width: 125px;
   height: 40px;
   margin-left: 100px;
+  margin-right: 162px;
   background-image: url(assets/images/logo-footer.svg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .footer-menu {
